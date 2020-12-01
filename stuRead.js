@@ -24,10 +24,31 @@ con.connect((err) => {
         console.log(res)
     })
     */
+   /*
    const stu_name = 'mohit'
    const sql = 'SELECT * FROM students WHERE stu_name = ' + mysql.escape(stu_name)
    con.query(sql, (err,res) => {
        if(err) throw err
        console.log(res)
    })
+   */
+  /*
+  const sql = 'SELECT * FROM students LIMIT 2'
+  con.query(sql, (err,res) => {
+      if(err) throw err
+      console.log(res)
+  })
+  */
+ /*
+ const sql = 'SELECT * FROM students LIMIT 2 OFFSET 2'
+  con.query(sql, (err,res) => {
+      if(err) throw err
+      console.log(res)
+  })
+  */
+ const sql = 'SELECT * FROM students LIMIT 2,3'
+  con.query(sql, (err,res) => {
+      if(err) throw err
+      console.log(res)
+  })
 })
