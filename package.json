@@ -1,0 +1,26 @@
+{
+  "name": "node-mysql-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connect.js",
+  "scripts": {
+    "connect": "node connect.js",
+    "createDatabase": "node createDatabase.js",
+    "createStuTable": "node createStuTable.js",
+    "stuCreate": "node stuCreate.js",
+    "stuDelete": "node stuDelete.js",
+    "stuUpdate": "node stuUpdate.js",
+    "stuRead": "node stuRead.js",
+    "createSubTable": "node createSubTable.js",
+    "subCreate": "node subCreate.js",
+    "join": "node join.js",
+    "leftJoin": "node leftJoin.js",
+    "rightJoin": "node rightJoin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
